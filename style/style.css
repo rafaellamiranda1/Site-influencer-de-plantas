@@ -5,8 +5,6 @@
     src: url(../fontes/HappyTime.otf);
 }
 
-
-
 h1 {
     font-family: 'Montserrat';
     margin: 10px;
@@ -32,11 +30,12 @@ h1 a:hover {
 h2{
     font-size: 'Montserrat';
     color: #F4E5CC;
-    margin: 10px 10px;
+    margin: 10px 100px;
+    padding: 55px 20px;
 }
 
 p{
-    color: #F4E5CC;
+    color: #87906A;
 }
 
 body {
@@ -55,7 +54,7 @@ body {
     display: flex;
     height: 110px;
     background: #F4E5CC;
-    padding: 30px 80px;
+    padding: 100px 80px;
     align-items: center;
 }
 
@@ -117,6 +116,53 @@ body {
     object-fit: contain;
     border-radius: 20px;
 }
+
+
+.container-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    width: 90%;
+    margin: 40px auto;
+}
+
+.card {
+    background-color: #F4E5CC;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.12);
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.20);
+}
+
+.card img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    display: block;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card-body h3 {
+    font-size: 20px;
+    margin: 0 0 10px;
+    color: #333;
+}
+
+.card-body p {
+    font-size: 15px;
+    line-height: 1.5;
+    color: #666;
+    margin: 0;
+}
+
 .rodape {
     margin-top: 10px;
     padding: 25px;
