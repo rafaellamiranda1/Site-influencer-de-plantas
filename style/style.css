@@ -1,52 +1,86 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
+@font-face {
+    font-family: Happy;
+    src: url(../fontes/HappyTime.otf);
+}
+
+
+
+h1{
+    font-family: 'Montserrat';
+    margin: 10px;
+    padding: 110px 110px;
+    font-size: 50px;
+    color:#F4E5CC;
+}
+
+h1 span{
+    font-family: "Happy";
+    padding: 30px 10px;
+    margin: 0;
+    padding-top: 3px;
+    font-size: 55px;
+    color: #bc575f;
+}
+
 body{
     font-family: 'Montserrat';
     margin: 0;
     padding: 0;
+    background-color: #98a07d;
 }
 
 #principal{
-    width: 1600px;
+    width: 1480px;
     margin: 0 auto;
 }
 
-.header-top{
-    display: flexbox;
+.header-top {
+    display: flex;
     height: 110px;
     background: #F4E5CC;
-    padding: 10px 50px;
+    padding: 30px 80px;
+    align-items: center;
+}
+
+.header-top nav{
+    display: flex;
+    gap: 50px;
 }
 
 .logotipo{
-    margin: 5px 0 0 25px;
+    margin: 10px 0 0 25px;
 }
 
 .header-nav{
-    display: inline-block;
-    margin-left: 45%;
+    display: flex;
+    align-items: center;
+    margin-left: auto;
     height: 100%;
 }
+
 
 .header-nav ul{
     margin: 0;
     padding: 0;
-    display: inline-block;
+    display: flex;
+    align-items: center;
+    gap: 12px;
 }
 
+
 .header-nav li{
-    list-style: 0;
-    display: inline-block;
-    margin: 0 15px 100px 0;
-    padding: 13px;
-    
+    list-style: none;
+    margin: 0;
+    padding: 5px;
 }
 
 .header-nav a{
-    color: #FB6E79;
+    color: #87906A;
     text-decoration: none;
     text-transform: uppercase;
-    font-size: 12px;
+    font-size: 15px;
     letter-spacing: 5px;
     transition: color .5s linear;
 }
