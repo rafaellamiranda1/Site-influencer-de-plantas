@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 @font-face {
     font-family: Happy;
     src: url(../fontes/HappyTime.otf);
@@ -6,15 +7,15 @@
 
 
 
-h1{
+h1 {
     font-family: 'Montserrat';
     margin: 10px;
     padding: 180px 115px;
     font-size: 50px;
-    color:#F4E5CC;
+    color: #F4E5CC;
 }
 
-h1 span{
+h1 span {
     font-family: "Happy";
     padding: 30px 10px;
     margin: 0;
@@ -23,18 +24,29 @@ h1 span{
     color: #bc575f;
 }
 
-h1 a:hover{
+h1 a:hover {
     color: #98a07d;
 
 }
-body{
+
+h2{
+    font-size: 'Montserrat';
+    color: #F4E5CC;
+    margin: 10px 10px;
+}
+
+p{
+    color: #F4E5CC;
+}
+
+body {
     font-family: 'Montserrat';
     margin: 0;
     padding: 0;
     background-color: #98a07d;
 }
 
-#principal{
+#principal {
     width: 1480px;
     margin: 0 auto;
 }
@@ -47,16 +59,16 @@ body{
     align-items: center;
 }
 
-.header-top nav{
+.header-top nav {
     display: flex;
     gap: 50px;
 }
 
-.logotipo{
+.logotipo {
     margin: 10px 0 0 25px;
 }
 
-.header-nav{
+.header-nav {
     display: flex;
     align-items: center;
     margin-left: auto;
@@ -64,7 +76,7 @@ body{
 }
 
 
-.header-nav ul{
+.header-nav ul {
     margin: 0;
     padding: 0;
     display: flex;
@@ -73,13 +85,13 @@ body{
 }
 
 
-.header-nav li{
+.header-nav li {
     list-style: none;
     margin: 0;
     padding: 5px;
 }
 
-.header-nav a{
+.header-nav a {
     color: #87906A;
     text-decoration: none;
     text-transform: uppercase;
@@ -88,19 +100,31 @@ body{
     transition: color .5s linear;
 }
 
-.header-nav a:hover{
+.header-nav a:hover {
     color: #F7135F;
 }
-
-.banner-imagem {
-    width: 40%;
-    float: right;
+.imagem-inicio {
+    width: 150%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(-430px);
 }
 
-.banner-imagem img {
-    width: 100%;
+.imagem-inicio img {
+    width: 440px;
     height: auto;
-    display: block;
-    border-radius: 15px;
-    padding-top: 100px;
+    object-fit: contain;
+    border-radius: 20px;
+}
+.rodape {
+    margin-top: 10px;
+    padding: 25px;
+    background-color: #F4E5CC;
+    text-align: center;
+    list-style: none;
+}
+
+.rodape address {
+    font-style: normal;
 }
