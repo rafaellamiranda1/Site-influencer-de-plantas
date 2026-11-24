@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 @font-face {
     font-family: Happy;
     src: url(../fontes/HappyTime.otf);
@@ -10,7 +9,7 @@
 h1{
     font-family: 'Montserrat';
     margin: 10px;
-    padding: 110px 110px;
+    padding: 180px 115px;
     font-size: 50px;
     color:#F4E5CC;
 }
@@ -20,10 +19,14 @@ h1 span{
     padding: 30px 10px;
     margin: 0;
     padding-top: 3px;
-    font-size: 55px;
+    font-size: 56px;
     color: #bc575f;
 }
 
+h1 a:hover{
+    color: #98a07d;
+
+}
 body{
     font-family: 'Montserrat';
     margin: 0;
@@ -87,4 +90,17 @@ body{
 
 .header-nav a:hover{
     color: #F7135F;
+}
+
+.banner-imagem {
+    width: 40%;
+    float: right;
+}
+
+.banner-imagem img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 15px;
+    padding-top: 100px;
 }
