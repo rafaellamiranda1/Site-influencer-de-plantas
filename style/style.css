@@ -28,10 +28,18 @@ h1 a:hover {
 }
 
 h2 {
-    font-size: 'Montserrat';
-    color: #F4E5CC;
-    margin: 10px 100px;
-    padding: 55px 20px;
+    font-family: 'Montserrat';
+    font-size: 35px;
+    color: #494e3a;
+    margin: 20px 100px;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+h2 span {
+    font-family: Happy;
+    color: #bc575f;
+    font-size: 45px;
 }
 
 p {
@@ -46,7 +54,6 @@ p {
 
 .paragrafo span {
     font-family: Happy;
-    color: #bc575f;
 }
 
 .figure {
@@ -77,6 +84,81 @@ p {
 .figure img:hover {
     transform: scale(1.03);
 }
+
+
+form.row {
+    max-width: 650px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #f7f8f3;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+.form-label {
+    display: block;
+    margin-bottom: 8px;
+    color: #405442;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.form-control {
+    width: 100%;
+    padding: 11px 13px;
+    border: 1px solid #d5dfd2;
+    border-radius: 8px;
+    background-color: white;
+    font-size: 14px;
+    outline: none;
+    transition: 0.3s;
+    box-sizing: border-box;
+}
+
+.form-control:focus {
+    border-color: #829b7d;
+    box-shadow: 0 0 5px rgba(100, 140, 100, 0.2);
+}
+
+.form-field {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.check {
+    accent-color: #607d60;
+    cursor: pointer;
+}
+
+.form-field label {
+    color: #526452;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.btn-solid {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    background-color: #607d60;
+    color: #F4E5CC;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn-solid:hover {
+    background-color: #455f47;
+    transform: translateY(-2px);
+}
+
+.formulario{
+    
+}
+
 
 body {
     font-family: 'Montserrat';
